@@ -82,6 +82,10 @@ body, html {
     text-align: left;
     overflow-y: auto;          /* Allow vertical scrolling if content exceeds max height */
   }
- 
+  @media(max-width:600px){
+    body{
+      background-image:none;
+    }
+  }
  
   
