@@ -6,7 +6,7 @@
     top: -1rem;
 }
 body{
-    background-image:url(/futuristicbackground.png);
+    background-image:url(suturisticbackground.png);
     
 }
 #searchbar{
@@ -138,7 +138,7 @@ body{
     top:18rem;
     left: 57rem;
     border-radius: 20px;
-    background-image: url('f4.png');
+    background-image: url('sf4.png');
     background-size:contain;
     background-position: top 2rem center;
      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
