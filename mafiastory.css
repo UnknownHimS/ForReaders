@@ -70,5 +70,18 @@ body, html {
     background-size: cover;
     background-attachment: fixed;
   }
+  #Chapter{
+    text-shadow: 1px 1px 6px;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    word-wrap: break-word;     /* Ensure long words wrap */
+    overflow-wrap: break-word; /* Break long words */
+    word-break: break-word;    /* Force breaking of long unbreakable words */
+    white-space: normal;       /* Allow normal wrapping */
+    padding: 25px 0;
+    text-align: left;
+    overflow-y: auto;          /* Allow vertical scrolling if content exceeds max height */
+  }
+ 
  
   
