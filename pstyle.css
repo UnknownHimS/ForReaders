@@ -1,0 +1,200 @@
+#header{
+    width: 100rem;
+    height: 11rem;
+
+    left:-2rem;
+    top: -1rem;
+}
+body{
+    background-image:url(/futuristicbackground.png);
+    
+}
+#searchbar{
+   position: absolute;
+   border:2px solid;
+   z-index: 2;
+   color:black;
+   background: rgb(252, 245, 245, 0.7);
+   width: 43rem;
+   height: 1.4rem;
+   left: 28rem;
+   top: 1rem;
+   border-radius: 20px;
+   padding: 5px 5px;
+}
+#home{
+    text-decoration: none;
+    color:black;
+}
+#about{
+    text-decoration: none;
+    color:black;
+}
+#history{
+    text-decoration: none;
+    color:black;
+}
+#containerheader{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    gap:5rem;
+    left:2rem;
+    top:1.5rem;
+}
+#containerheadertwo{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:0;
+    padding: 0;
+    position: absolute;
+    gap:5rem;
+    left:2rem;
+    top:6.5rem;
+    border-bottom: 1px solid;
+    border-color: rgb(31, 28, 28, 0.5);
+}
+#title{
+    position:absolute;
+    top:8rem;
+    left:2rem;
+    text-shadow: 3px 3px 5px;
+}
+
+#HeartOfMafia{
+    position: absolute;
+    top:27rem;
+    left:1.4rem;
+    text-shadow: 3px 3px 5px;
+    font-size:2rem;
+    font-weight: 500;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background:white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+      
+}
+#containerstories{
+    display:grid;
+    position: absolute;
+    top:5rem;
+    left:2rem;
+   
+
+}
+#btnmafia{
+    position: absolute;
+    width:20rem;
+    height:15rem;
+    position:absolute;
+    top:13rem;
+    left: 2rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    background-image: url('zafiarom.png');
+    background-size: cover;
+    transition-timing-function: ease-in-out;
+    
+}
+#btnmafia:hover{
+    box-shadow: 0px 5px 20px rgba(0, 255, 255, 0.6), 0 0 25px rgba(0, 255, 255, 0.8);
+}
+#btnwolf{
+    position: absolute;
+    width:20rem;
+    height:15rem;
+    top:18rem;
+    left: 30rem;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    background-image: url('wolf.png');
+    background-size: cover;
+    transition-timing-function: ease-in-out;
+}
+#btnwolf:hover{
+    box-shadow: 0px 5px 20px rgba(0, 255, 255, 0.6), 0 0 25px rgba(0, 255, 255, 0.8);
+}
+#redwolf{
+    position: absolute;
+    top:32rem;
+    left:30.4rem;
+    text-shadow: 3px 3px 5px;
+    font-size:1.5rem;
+    font-weight: 500;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background:white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+}
+#btnmagnet{
+    position: absolute;
+    width:20rem;
+    height:15rem;
+    top:18rem;
+    left: 57rem;
+    border-radius: 20px;
+    background-image: url('f4.png');
+    background-size:contain;
+    background-position: top 2rem center;
+     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+    transition-timing-function: ease-in-out;
+}
+#btnmagnet:hover{
+    box-shadow: 0px 5px 20px rgba(0, 255, 255, 0.6), 0 0 25px rgba(0, 255, 255, 0.8);
+}
+#magnet{
+    position: absolute;
+    top:32rem;
+    left:57.4rem;
+    text-shadow: 3px 3px 5px;
+    font-size:1.5rem;
+    font-weight: 500;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background:white;
+    border:1px solid;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8);
+}
+.cloud {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2); /* Initial cloud shadow */
+    animation: move-cloud 40s infinite linear; /* Animate the cloud shadow */
+}
+
+/* Keyframes to simulate moving clouds */
+@keyframes move-cloud {
+    0% {
+        transform: translateX(-100%);
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.8);
+    }
+    50% {
+        transform: translateX(50%);
+        box-shadow: -20px -20px 60px rgba(0, 0, 0, 0.7);
+    }
+    100% {
+        transform: translateX(350%);
+        box-shadow: 20px 20px 70px rgba(0, 0, 0, 0.9);
+    }
+}
+
+.headertwoRom{
+    border-bottom: 3px solid;
+    border-color: red;
+
+   
+}
+.headertwoRom::after{
+    content: "";
+    display: block;
+    width:4.6rem;
+    height:0px;
+
+}
